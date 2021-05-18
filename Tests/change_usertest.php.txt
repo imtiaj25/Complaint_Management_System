@@ -1,0 +1,16 @@
+<?php
+
+
+
+
+class change_usertest extends users
+{
+    public $password;
+
+    public function testchange()
+    {
+        $this->name = new namechange();
+        $this->assertEquals($this->name->namechange(), 'imtiaj025@gmail.com');
+    }
+
+   
